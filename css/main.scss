@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  text-shadow: 3px 5px 8px #492f5a;
+  font-family: "Roboto", sans-serif;
+  background-color: #580093;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23580093' cx='50' cy='0' r='50'/%3E%3Cg fill='%235e0198' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2364019e' cx='50' cy='100' r='50'/%3E%3Cg fill='%236a02a3' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%237002a9' cx='50' cy='200' r='50'/%3E%3Cg fill='%237603ae' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%237d04b4' cx='50' cy='300' r='50'/%3E%3Cg fill='%238304b9' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%238a05bf' cx='50' cy='400' r='50'/%3E%3Cg fill='%239005c4' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%239705ca' cx='50' cy='500' r='50'/%3E%3Cg fill='%239e06cf' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a406d4' cx='50' cy='600' r='50'/%3E%3Cg fill='%23ab06da' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b205df' cx='50' cy='700' r='50'/%3E%3Cg fill='%23b905e5' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c005ea' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c704ef' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ce03f4' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d602fa' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  height: 100vh;
+}
+
+.head {
+  box-shadow: 3px 4px 5px rgba(66, 31, 84, 0.393);
+  color: white;
+  backdrop-filter: blur(20px);
+  background-color: rgba(59, 44, 63, 0.574);
+  text-align: center;
+  margin: 1em 1em 1em 1em;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 8px;
+}
+
+.maincard {
+  box-shadow: 3px 4px 5px rgba(66, 31, 84, 0.393);
+
+  h1 {
+    font-size: 3em !important;
+  }
+  display: flex;
+  color: white;
+  background-color: rgba(59, 44, 63, 0.574);
+  backdrop-filter: blur(20px);
+  padding: 8em 1em 1em 2em;
+  margin: 2em 1em 1em 1em;
+  border-radius: 8px;
+
+  .right {
+    background-color: rgba(241, 232, 246, 0.285);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-top: -6em;
+    margin-right: 1em;
+    margin-bottom: auto;
+    color: white;
+    img {
+      width: 10em;
+    }
+  }
+}
+.infocard {
+  color: white;
+  box-shadow: 3px 4px 5px rgba(66, 31, 84, 0.393);
+
+  background-color: rgba(59, 44, 63, 0.574);
+  backdrop-filter: blur(20px);
+  padding: 1em 1em 1em 2em;
+  margin: 1em 1em 1em 1em;
+  border-radius: 8px;
+  hr {
+    margin-right: 1em;
+  }
+}
+
+.wrap {
+  margin: 1em 1em 1em 1em;
+  .input-group {
+    border-radius: 8px;
+    box-shadow: 3px 4px 5px rgba(66, 31, 84, 0.393);
+  }
+}
+section {
+  margin-top: 1em;
+  hr {
+    color: #492f5a00;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .wrap {
+    width: 45%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: 1.5em;
+    padding-block: 1em;
+  }
+  .head {
+    position: absolute;
+    width: 45%;
+    height: 5.4em;
+    margin-top: 2;
+    margin-right: auto;
+    margin-left: 1.5em;
+    // margin-inline: 1.5em;
+    padding-block: 1em;
+  }
+
+  .input-group {
+    input {
+      border-radius: 8px 0px 0 8px !important;
+      font-size: 2em;
+      padding-left: 1em;
+      padding-block: 18px;
+    }
+    button {
+      border-radius: 0px 8px 8px 0px !important;
+      font-size: 1.5em;
+    }
+  }
+  .maincard {
+    margin-inline: 1.5em;
+    padding: 7em 2em 1em 2em;
+  }
+  .infocard {
+    margin-inline: 1.5em;
+    padding: em 2em 1em 2em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .head {
+    margin-left: 4em;
+    width: 42%;
+  }
+  .wrap {
+    margin-top: 2em;
+    width: 42%;
+    margin-right: 4em;
+  }
+  .maincard {
+    padding-left: 4em;
+    padding-bottom: 2em;
+    margin: 0 4em 0 4em;
+    .right {
+      margin-right: 2em;
+      margin-top: -1em;
+    }
+  }
+  .infocard {
+    display: flex;
+    margin: 2em 4em 0 4em;
+    padding-right: 2em;
+  }
+  .capsule {
+    width: 20%;
+    padding-block: 1em;
+    padding-inline: 2em;
+    margin: auto;
+    margin-block: 1em;
+    border-radius: 8px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrap {
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .capsule {
+    width: 15%;
+    background-color: #cccacd33;
+    padding-block: 1em;
+    padding-inline: 2em;
+    margin: auto;
+    margin-block: 1em;
+    border-radius: 8px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .maincard {
+    position: relative;
+    .right {
+      position: absolute;
+      img {
+        width: 4em;
+      }
+    }
+  }
+}
